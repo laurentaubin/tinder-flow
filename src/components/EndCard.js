@@ -20,13 +20,13 @@ export const EndCard = ({ cardText }) => {
       </Center>
       <Stack marginTop="36px">
         <Text fontSize="lg" align="center">
-          Texte moi un screenshot au
+          {"Pour redeem ta date, texte moi un screenshot au "}
+          <Link align="center" marginTop="0 !important" href={`sms:+1${sender === "laurent" ? "5812345309" : "5816240863"}`}>
+            <Text as="u" fontSize="lg" align="center">
+              {sender === "laurent" ? "581-234-5309" : "581-624-0863"}
+            </Text>
+          </Link>
         </Text>
-        <Link align="center" marginTop="0 !important" href={`sms:+1${sender === "laurent" ? "5812345309" : "5816240863"}`}>
-          <Text as="u" fontSize="lg" align="center">
-            {sender === "laurent" ? "581-234-5309" : "581-624-0863"}
-          </Text>
-        </Link>
       </Stack>
     </Box>
   ) : (
