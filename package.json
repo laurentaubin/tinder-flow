@@ -10,6 +10,7 @@
     "@chakra-ui/react": "^1.4.2",
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
+    "focus-visible": "^5.2.0",
     "framer-motion": "^4.0.3",
     "next": "latest",
     "next-google-fonts": "^2.2.0",

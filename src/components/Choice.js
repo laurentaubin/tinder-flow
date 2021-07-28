@@ -33,6 +33,7 @@ export const Choice = ({ choice }) => {
                 borderRadius="20px"
                 bgGradient="linear(to-r, #f53803, #fba000)"
                 onClick={choice.choseSecond}
+                _focus={{ outline: "0", backgroundColor: "black" }}
               >
                 {choice.secondChoice}
               </Button>
