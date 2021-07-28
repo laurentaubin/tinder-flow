@@ -31,7 +31,7 @@ const Index = () => {
       question: "Est-ce que tu as un bon cardio ?",
       firstChoice: "Yes sir",
       secondChoice: "Non pentoute",
-      choseFirst: () => setShowedCardIndex(6),
+      choseFirst: () => setShowedCardIndex(3),
       choseSecond: () => setShowedCardIndex(4)
     },
     {
