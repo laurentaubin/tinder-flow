@@ -8,9 +8,6 @@ export default class Document extends NextDocument {
         <Head />
         <body>
           {/* Make Color mode to persists when you refresh the page. */}
-          <Head>
-            <link rel="shortcut icon" href="/favicon.ico" />
-          </Head>
           <ColorModeScript />
           <Main />
           <NextScript />
