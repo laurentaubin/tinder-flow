@@ -1,8 +1,6 @@
 import { Box, Button, Center, Stack, Text } from "@chakra-ui/react";
 
 export const Choice = ({ choice }) => {
-  console.log(choice);
-
   return (
     <Box
       border="1px"
