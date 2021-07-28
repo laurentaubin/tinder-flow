@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Box, Center, Text } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
 import { Choice } from "../components/Choice";
 import { EndCard } from "../components/EndCard";
 
@@ -149,7 +149,7 @@ const Index = () => {
   ]);
 
   return (
-    <Center bgGradient="linear(to-t, #ee2a7b, #ff7db8)" paddingBottom="200px">
+    <Center bgGradient="linear(to-t, #000000, #923cb5)" paddingBottom="200px">
       <Box marginTop="20%" marginBottom="25%" height="100%" width="100%">
         {!isEndReached && <Choice choice={choices[showedCardIndex]}></Choice>}
         {isEndReached && <EndCard cardText={endCard} />}
