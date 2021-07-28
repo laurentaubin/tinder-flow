@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Center, Text } from "@chakra-ui/react";
 import { Choice } from "../components/Choice";
+import { EndCard } from "../components/EndCard";
 
 const Index = () => {
   const reachEnd = (text) => {
@@ -29,7 +30,7 @@ const Index = () => {
     {
       question: "Est-ce que tu as un bon cardio ?",
       firstChoice: "Yes sir",
-      secondChoice: "Non je suis 1/2 mort en haut d'une côte",
+      secondChoice: "Non pentoute",
       choseFirst: () => setShowedCardIndex(6),
       choseSecond: () => setShowedCardIndex(4)
     },
@@ -90,7 +91,7 @@ const Index = () => {
       choseSecond: () => reachEnd("On va souper au resto")
     },
     {
-      question: "Aimes-tu l'art ? ?",
+      question: "Aimes-tu l'art ?",
       firstChoice: "Oui",
       secondChoice: "Non",
       choseFirst: () => reachEnd("On écoute un épisode de l'émission de Bob Ross pis on essaie de refaire la peinture"),
@@ -148,19 +149,12 @@ const Index = () => {
   ]);
 
   return (
-    <>
-      {!isEndReached && (
-        <Box>
-          <Text>Only rendered questions</Text>
-          <Choice choice={choices[showedCardIndex]}></Choice>
-        </Box>
-      )}
-      {isEndReached && (
-        <Box>
-          <Text>End card {endCard}</Text>
-        </Box>
-      )}
-    </>
+    <Center bgGradient="linear(to-t, #ee2a7b, #ff7db8)" paddingBottom="200px">
+      <Box marginTop="20%" marginBottom="25%" height="100%" width="100%">
+        {!isEndReached && <Choice choice={choices[showedCardIndex]}></Choice>}
+        {isEndReached && <EndCard cardText={endCard} />}
+      </Box>
+    </Center>
   );
 };
 
