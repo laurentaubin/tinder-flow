@@ -39,21 +39,21 @@ const Index = () => {
       firstChoice: "Oui",
       secondChoice: "Non je suis tough",
       choseFirst: () => setShowedCardIndex(5),
-      choseSecond: () => reachEnd("Escalade ! (emoji)")
+      choseSecond: () => reachEnd("Escalade ! 🧗🏼🧗")
     },
     {
       question: "Aimes-tu Tiger Woods ?",
       firstChoice: "Oui",
       secondChoice: "Non je sais pas c'est qui",
-      choseFirst: () => reachEnd("Mini putt (emoji)"),
-      choseSecond: () => reachEnd("Marche dans le vieux Québec ou autre")
+      choseFirst: () => reachEnd("Mini putt ⛳🏌️‍♂️"),
+      choseSecond: () => reachEnd("Marche dans le vieux Québec ou autre 🚶🏼🚶🏼‍♀️")
     },
     {
       question: "T'as tu un char ?",
       firstChoice: "Oui",
       secondChoice: "Non",
-      choseFirst: () => reachEnd("On va hike"),
-      choseSecond: () => reachEnd("Une game de tennis")
+      choseFirst: () => reachEnd("On va hike ⛰️"),
+      choseSecond: () => reachEnd("Une game de tennis 🎾")
     },
     {
       question: "Veux-tu que notre date soit à l'intérieur ou dehors ?",
@@ -80,56 +80,56 @@ const Index = () => {
       question: "Veux-tu qu'on se voit le jour ou le soir ?",
       firstChoice: "Le jour",
       secondChoice: "Le soir",
-      choseFirst: () => reachEnd("On se fait un brunch maison"),
-      choseSecond: () => reachEnd("On se cuisine à souper")
+      choseFirst: () => reachEnd("On se fait un brunch maison 🥓🥚"),
+      choseSecond: () => reachEnd("On se cuisine à souper 🍝")
     },
     {
       question: "Veux-tu qu'on se voit le jour ou le soir ?",
       firstChoice: "Le jour",
       secondChoice: "Le soir",
-      choseFirst: () => reachEnd("On va bruncher"),
-      choseSecond: () => reachEnd("On va souper au resto")
+      choseFirst: () => reachEnd("On va bruncher 🥓🥚"),
+      choseSecond: () => reachEnd("On va souper au resto 🍝")
     },
     {
       question: "Aimes-tu l'art ?",
       firstChoice: "Oui",
       secondChoice: "Non",
-      choseFirst: () => reachEnd("On écoute un épisode de l'émission de Bob Ross pis on essaie de refaire la peinture"),
+      choseFirst: () => reachEnd("On écoute un épisode de l'émission de Bob Ross pis on essaie de refaire la peinture 🎨🖌️"),
       choseSecond: () => setShowedCardIndex(12)
     },
     {
       question: "Aimes tu les jeux de société ?",
       firstChoice: "Oui j'adore",
       secondChoice: "Nah pas pour moi",
-      choseFirst: () => reachEnd("Soirée board games !"),
-      choseSecond: () => reachEnd("On chill à l'appart (netflix ou autres)")
+      choseFirst: () => reachEnd("Soirée board games ! 🎲"),
+      choseSecond: () => reachEnd("On chill à l'appart (netflix ou autres) 🍿🎬")
     },
     {
       question: "As-tu un char ?",
       firstChoice: "Oui",
       secondChoice: "Non",
-      choseFirst: () => reachEnd("On va cueillir des fraises sur l'ile d'Orléans"),
+      choseFirst: () => reachEnd("On va cueillir des fraises sur l'ile d'Orléans 🍓🍓"),
       choseSecond: () => setShowedCardIndex(14)
     },
     {
       question: "T'as tu faim live ?",
       firstChoice: "Oui as fuck",
       secondChoice: "Non",
-      choseFirst: () => reachEnd("On se fait un picnic sur les plaines"),
+      choseFirst: () => reachEnd("On se fait un picnic sur les plaines 🧀🥖"),
       choseSecond: () => setShowedCardIndex(15)
     },
     {
       question: "T'as tu soif ?",
       firstChoice: "Oui",
       secondChoice: "Non",
-      choseFirst: () => reachEnd("On va prendre un verre sur une terrasse"),
-      choseSecond: () => reachEnd("On va voir le sunset sur le toit de mon bloc")
+      choseFirst: () => reachEnd("On va prendre un verre sur une terrasse 🍺🍸"),
+      choseSecond: () => reachEnd("On va voir le sunset sur le toit de mon bloc 🌇")
     },
     {
       question: "Aimes tu le sport ?",
       firstChoice: "Oui",
       secondChoice: "Non",
-      choseFirst: () => reachEnd("On va jouer au spikeball avec des amis"),
+      choseFirst: () => reachEnd("On va jouer au spikeball avec des amis 🤾🏼⚽"),
       choseSecond: () => setShowedCardIndex(17)
     },
     {
@@ -137,14 +137,14 @@ const Index = () => {
       firstChoice: "Oui",
       secondChoice: "Non",
       choseFirst: () => setShowedCardIndex(18),
-      choseSecond: () => reachEnd("On va chiller à la plage")
+      choseSecond: () => reachEnd("On va chiller à la plage ⛱️🦀")
     },
     {
       question: "As-tu des ami(e)s ?",
       firstChoice: "Oui j'en ai plein",
       secondChoice: "Non je suis rejet",
-      choseFirst: () => reachEnd("On va à la plage en gang avec de l'alcool"),
-      choseSecond: () => reachEnd("On fait un gros turn up avec nos amis")
+      choseFirst: () => reachEnd("On va à la plage en gang avec de l'alcool ⛱️🍺"),
+      choseSecond: () => reachEnd("On fait un gros turn up avec nos amis 🎈🍺")
     }
   ]);
 
