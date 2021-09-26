@@ -3,7 +3,7 @@ import { Box, Center } from "@chakra-ui/react";
 import { Choice } from "../components/Choice";
 import { EndCard } from "../components/EndCard";
 
-const choices = require("../data/summer-2021.json");
+const choices = require("../data/fall-2021.json");
 
 const Index = () => {
   const [showedCardIndex, setShowedCardIndex] = useState(0);
