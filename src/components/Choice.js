@@ -1,6 +1,6 @@
 import { Box, Button, Center, Stack, Text } from "@chakra-ui/react";
 
-export const Choice = ({ choice }) => {
+export const Choice = ({ choice, chooseNext }) => {
   return (
     <Box border="1px" borderRadius="20" padding="4" marginX="16px" marginTop="10%" marginBottom="30%" height="450px" bgColor="white">
       <Center height="100%" width="100%">
@@ -19,7 +19,7 @@ export const Choice = ({ choice }) => {
                 fontSize="xl"
                 borderRadius="20px"
                 bgGradient="linear(to-r, #f53803, #fba000)"
-                onClick={choice.choseFirst}
+                onClick={() => chooseNext(choice.choseFirst)}
               >
                 {choice.firstChoice}
               </Button>
@@ -32,7 +32,7 @@ export const Choice = ({ choice }) => {
                 fontSize="xl"
                 borderRadius="20px"
                 bgGradient="linear(to-r, #f53803, #fba000)"
-                onClick={choice.choseSecond}
+                onClick={() => chooseNext(choice.choseSecond)}
                 _focus={{ outline: "0", backgroundColor: "black" }}
               >
                 {choice.secondChoice}

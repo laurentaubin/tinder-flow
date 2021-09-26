@@ -1,0 +1,135 @@
+[
+  {
+    "question": "Veux-tu que notre date soit one on one ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": 1,
+    "choseSecond": 16
+  },
+  {
+    "question": "Es-tu une fille sportive ?",
+    "firstChoice": "Oui j'aime le sport",
+    "secondChoice": "Nope",
+    "choseFirst": 2,
+    "choseSecond": 6
+  },
+  {
+    "question": "Est-ce que tu as un bon cardio ?",
+    "firstChoice": "Yes sir",
+    "secondChoice": "Non pentoute",
+    "choseFirst": 3,
+    "choseSecond": 4
+  },
+  {
+    "question": "As-tu peur des hauteurs ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non je suis tough",
+    "choseFirst": 5,
+    "choseSecond": "Escalade ! 🧗🏼🧗"
+  },
+  {
+    "question": "Aimes-tu Tiger Woods ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non je sais pas c'est qui",
+    "choseFirst": "Mini putt ⛳🏌️‍♂️",
+    "choseSecond": "Marche dans le vieux Québec ou autre 🚶🏼🚶🏼‍♀️"
+  },
+  {
+    "question": "T'as tu un char ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": "On va hike ⛰️",
+    "choseSecond": "Une game de tennis 🎾"
+  },
+  {
+    "question": "Veux-tu que notre date soit à l'intérieur ou dehors ?",
+    "firstChoice": "À l'intérieur",
+    "secondChoice": "Dehors",
+    "choseFirst": 7,
+    "choseSecond": 13
+  },
+  {
+    "question": "Aimes tu manger ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non c'est cringe",
+    "choseFirst": 8,
+    "choseSecond": 11
+  },
+  {
+    "question": "Aimes-tu ça cuisiner ?",
+    "firstChoice": "Oui call me Ricardo",
+    "secondChoice": "Non je suis poche",
+    "choseFirst": 9,
+    "choseSecond": 10
+  },
+  {
+    "question": "Veux-tu qu'on se voit le jour ou le soir ?",
+    "firstChoice": "Le jour",
+    "secondChoice": "Le soir",
+    "choseFirst": "On se fait un brunch maison 🥓🥚",
+    "choseSecond": "On se cuisine à souper 🍝"
+  },
+  {
+    "question": "Veux-tu qu'on se voit le jour ou le soir ?",
+    "firstChoice": "Le jour",
+    "secondChoice": "Le soir",
+    "choseFirst": "On va bruncher 🥓🥚",
+    "choseSecond": "On va souper au resto 🍝"
+  },
+  {
+    "question": "Aimes-tu l'art ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": "On écoute un épisode de l'émission de Bob Ross pis on essaie de refaire la peinture 🎨🖌️",
+    "choseSecond": 12
+  },
+  {
+    "question": "Aimes tu les jeux de société ?",
+    "firstChoice": "Oui j'adore",
+    "secondChoice": "Nah pas pour moi",
+    "choseFirst": "Soirée board games ! 🎲",
+    "choseSecond": "On chill à l'appart (netflix ou autres 🍿🎬"
+  },
+  {
+    "question": "As-tu un char ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": "On va cueillir des fraises sur l'ile d'Orléans 🍓🍓",
+    "choseSecond": 14
+  },
+  {
+    "question": "T'as tu faim live ?",
+    "firstChoice": "Oui as fuck",
+    "secondChoice": "Non",
+    "choseFirst": "On se fait un picnic sur les plaines 🧀🥖",
+    "choseSecond": 15
+  },
+  {
+    "question": "T'as tu soif ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": "On va prendre un verre sur une terrasse 🍺🍸",
+    "choseSecond": "On va voir le sunset sur le toit de mon bloc 🌇"
+  },
+  {
+    "question": "Aimes tu le sport ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": "On va jouer au spikeball avec des amis 🤾🏼⚽",
+    "choseSecond": 17
+  },
+  {
+    "question": "Aimes-tu l'alcool ?",
+    "firstChoice": "Oui",
+    "secondChoice": "Non",
+    "choseFirst": 18,
+    "choseSecond": "On va chiller à la plage ⛱️🦀"
+  },
+  {
+    "question": "As-tu des ami(es ?",
+    "firstChoice": "Oui j'en ai plein",
+    "secondChoice": "Non je suis rejet",
+    "choseFirst": "On va à la plage en gang avec de l'alcool ⛱️🍺",
+    "choseSecond": "On fait un gros turn up avec nos amis 🎈🍺"
+  }
+]
