@@ -8,7 +8,7 @@
   },
   {
     "question": "Veux-tu que notre date soit sportive ou plus relaxe ?",
-    "firstChoice": "Sportive, j'aime le sport",
+    "firstChoice": "Sportive",
     "secondChoice": "Relaxe",
     "choseFirst": 2,
     "choseSecond": 6
@@ -25,7 +25,7 @@
     "firstChoice": "Oui",
     "secondChoice": "Non je suis tough",
     "choseFirst": 5,
-    "choseSecond": "Escalade ! 🧗🏼🧗"
+    "choseSecond": "Escalade 🧗🏼🧗"
   },
   {
     "question": "Aimes-tu Tiger Woods ?",
@@ -87,7 +87,7 @@
     "question": "Aimes tu les jeux de société ?",
     "firstChoice": "Oui j'adore",
     "secondChoice": "Nah pas pour moi",
-    "choseFirst": "Soirée board games ! 🎲",
+    "choseFirst": "Soirée board games 🎲",
     "choseSecond": 19
   },
   {
